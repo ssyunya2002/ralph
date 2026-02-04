@@ -1,0 +1,97 @@
+{
+  "project": "Q2セールス強化プロジェクト",
+  "projectName": "q2-sales-boost",
+  "description": "Q2の売上目標達成に向けた市場調査・競合分析・戦略立案",
+  "outputDir": "./outputs",
+  "tasks": [
+    {
+      "id": "BT-001",
+      "taskType": "research",
+      "title": "競合3社の価格戦略調査",
+      "description": "主要競合3社（A社、B社、C社）の価格帯、割引戦略、ターゲット顧客層を調査する",
+      "acceptanceCriteria": [
+        "各社の価格帯を表形式でまとめる",
+        "割引・キャンペーン情報を記載",
+        "情報源を5つ以上引用（URLを記載）",
+        "結論を200字以内で要約",
+        "outputs/BT-001-競合価格調査.md に保存"
+      ],
+      "outputDestination": "local",
+      "outputFileName": "BT-001-競合価格調査.md",
+      "priority": 1,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "BT-002",
+      "taskType": "research",
+      "title": "市場トレンド調査",
+      "description": "業界の最新トレンド、成長分野、顧客ニーズの変化を調査する",
+      "acceptanceCriteria": [
+        "主要トレンドを5つ以上特定",
+        "各トレンドの根拠となるデータを記載",
+        "情報源を5つ以上引用",
+        "自社への影響・機会を分析",
+        "outputs/BT-002-市場トレンド.md に保存"
+      ],
+      "outputDestination": "local",
+      "outputFileName": "BT-002-市場トレンド.md",
+      "priority": 2,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "BT-003",
+      "taskType": "analysis",
+      "title": "SWOT分析",
+      "description": "BT-001, BT-002の調査結果をもとに自社のSWOT分析を実施",
+      "acceptanceCriteria": [
+        "BT-001, BT-002の成果物を参照",
+        "強み・弱み・機会・脅威を各3つ以上",
+        "各項目に根拠を記載",
+        "outputs/BT-003-SWOT分析.md に保存"
+      ],
+      "outputDestination": "local",
+      "outputFileName": "BT-003-SWOT分析.md",
+      "priority": 3,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "BT-004",
+      "taskType": "planning",
+      "title": "Q2セールス戦略立案",
+      "description": "調査・分析結果をもとにQ2の販売戦略を策定する",
+      "acceptanceCriteria": [
+        "BT-001〜BT-003の成果物を踏まえる",
+        "4月・5月・6月の月別目標を設定",
+        "KPIを3つ以上定義（数値目標付き）",
+        "具体的なアクションアイテムを10個以上",
+        "outputs/BT-004-Q2戦略.md に保存"
+      ],
+      "outputDestination": "local",
+      "outputFileName": "BT-004-Q2戦略.md",
+      "priority": 4,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "BT-005",
+      "taskType": "document",
+      "title": "経営向けサマリーレポート作成",
+      "description": "調査・分析・戦略の要点を経営層向けにまとめる",
+      "acceptanceCriteria": [
+        "エグゼクティブサマリー（300字以内）",
+        "主要な発見事項を箇条書き",
+        "推奨アクションを優先度順に記載",
+        "A4 2ページ相当の分量",
+        "outputs/BT-005-経営サマリー.md に保存"
+      ],
+      "outputDestination": "local",
+      "outputFileName": "BT-005-経営サマリー.md",
+      "priority": 5,
+      "passes": false,
+      "notes": ""
+    }
+  ]
+}
